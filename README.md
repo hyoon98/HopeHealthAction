@@ -1,3 +1,5 @@
+# NOTE: Copied from school GitLab account, actual project developed over a full semester, not one commit
+
 # CBR Manager #
 
 The CBR (Community Based Rehabilitation) Manager application was created to help facilitating rehabilitation work in communities in the refugee settlements in BidiBidi and Paloryina, Northern Uganda to increase the impact of the work done by HHA (Hope Health Action). There are two / three main types of users. There are admins who oversee the entire process and workers who directly interact with the clients. Workers are responsible for adding clients to the database and filling in visit forms for them.  As of right now, this is only a web application, but a mobile application is desired at a later phase. Despite this, this web application will typically be accessed on mobile devices by workers and desktop by admins. Furthermore, there is ideally going to also be a feature to generate measurable data by the admins. This web application uses React as the frontend with NodeJS as the backend and PostgreSQL as the database. The sequelizer library was used so that writing queries was not necessary.
