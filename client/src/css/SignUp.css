@@ -1,0 +1,26 @@
+
+.SignUp H2 {
+    text-align: center;
+}
+
+.SignUp Form {
+    border-style: solid;
+    border-color: #566B6B;
+    background-color: #e5fafa;
+    padding: 40px 20px 40px 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.SignUp button {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    background-color: #46ad2f;
+    width: 100%;
+}
+
+.SignUp FormGroup {
+    display : block;
+    width: 100%;
+}

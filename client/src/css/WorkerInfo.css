@@ -1,0 +1,38 @@
+.summary-stats {
+    display: flex;
+    margin: 1.4rem 0 40px;
+    height: 180px;
+    gap: 1rem;
+}
+
+.summary-stats > * {
+    flex: 1 1 200px;
+}
+
+.stat-count {
+    background-color: #008080;
+    display: flex;
+    padding: 1.2rem;
+    border-radius: 4px;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.stat-count .count-number {
+    font-size: 3rem;
+}
+
+.tab-content {
+    background-color:white;
+    color: black;
+    border-width: 0px;
+}
+
+.tab-link {
+    cursor: pointer;
+}
+
+.right-button {
+    float: right;
+}

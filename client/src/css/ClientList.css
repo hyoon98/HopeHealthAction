@@ -1,0 +1,108 @@
+.Title h1 {
+    text-align: center;
+}
+
+.Title {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.Title Button {
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.ClientList Button {
+    float: right;
+    border-color: lightgrey;
+    background-color: white;
+    color: blue;
+}
+
+/*#export {*/
+/*    display:inline-block;*/
+/*}*/
+
+.SortSection div {
+    display: inline;
+    margin: 10px;
+}
+
+.ChooseFilters {
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 10px;
+}
+.ChooseFilters div {
+    margin-inline-start: 5px;
+}
+
+.ChooseFilters Button {
+    display:inline;
+}
+
+.pagination li {
+    margin-top: 20px;
+    color: blue;
+    border: 1px solid lightgrey;
+    padding: 8px 16px;
+    border-radius: 2px;
+}
+
+.pagination_active {
+    color: #fff;
+    background: lightblue;
+}
+
+.SearchName {
+    position:relative;
+}
+
+.SearchName button {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    border:none;
+    color: black;
+    outline: none;
+    opacity: 0.4;
+    font-size: 20px;
+    text-align:center;
+    font-weight:bold;
+    padding:2px;
+}
+.SearchName button:hover {
+    opacity: 0.5;
+}
+
+.listHeader {
+    text-align: center;
+}
+.clientRow {
+    box-shadow: 0 0px 5px 3px #e4d5eb;
+    text-align: left;
+    margin: 2px 0;
+    align-items: center;
+}
+
+.clientRowText{
+    margin: 0px;
+}
+
+.dateText {
+    text-align: right;
+    color: #8c8c8c;
+}
+
+
+
+
+
+
+
+
+

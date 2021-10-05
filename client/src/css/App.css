@@ -1,0 +1,91 @@
+h1 {
+    font-weight: bold;
+}
+
+.remove-btn {
+    margin-right: 0.5rem;
+}
+
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 1000ms ease-in;
+}
+
+/* NewClientSignup.js */
+.rbt-input-multi, .rbt-input-wrapper {
+    border: none;
+    margin: 0 !important;
+    padding: 0;
+}
+
+.rbt-input-wrapper {
+    flex-direction: column-reverse;
+}
+
+.rbt-token {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid currentColor;
+}
+
+.rbt-input-wrapper > *:last-child {
+    width: 100%;
+    padding: 0.4em 1em;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.rbt-menu {
+    top: 3em !important;
+    transform: none !important;
+}
+
+.rbt-input-wrapper > *:last-child::before {
+    content: '+';
+    margin-right: 0.4em;
+}
+
+.rbt-input-wrapper > *:last-child:not(:only-child) {
+    margin-bottom: 0.4em;
+}
+
+.fade-to-in {
+    transition: opacity 0.4s;
+    opacity: 0.2;
+}
+
+.fade-to-out {
+    transition: opacity 0.4s;
+    opacity: 1;
+}
+
+/* Multi-step form */
+.multistep-form-btns {
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .multistep-form-btns {
+        overflow-x: auto;
+    }
+
+    .multistep-form-btns .btn-group {
+        display: block;
+        white-space: nowrap;
+    }
+}
+
+

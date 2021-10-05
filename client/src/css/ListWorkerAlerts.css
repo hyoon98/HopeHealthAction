@@ -1,0 +1,45 @@
+
+.alerts div.list {
+    max-height: 600px;
+    overflow-Y: auto;
+    max-width: 100%;
+    min-width: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.alerts h4 {
+    color:#9646b7;
+    margin: 0px;
+}
+
+.alerts button {
+    float: left;
+    background-color: #46ad2f;
+    margin: 10px;
+}
+
+.listHeader {
+    float: center;
+    margin: 0px;
+}
+
+.messageText{
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.dateText {
+    text-align: right;
+    color: #8c8c8c;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+

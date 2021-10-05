@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.outRefs{
+    min-width: 300px;
+}
+
+.priorityClient{
+    min-width: 300px;
+}
+
+.container{
+    margin: 'auto';
+    max-width: 800
+}

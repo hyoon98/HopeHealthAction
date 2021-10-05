@@ -1,0 +1,16 @@
+
+.tab-content {
+    background-color:white;
+    color: black;
+    border-width: 0px;
+}
+
+.reset-button {
+    background-color: #46ad2f;
+    text-align: right;
+    margin: auto;
+}
+
+.total {
+    float: right;
+}
